@@ -1,9 +1,10 @@
 #!/bin/bash
-# Instalador HackCrist
+# Instalador Hacking Live — DOXING TOOL
+# Autor: HackCrist
 
 clear
 echo "======================================="
-echo "   🚀 Instalador de Hacking Live Beta  "
+echo "   🚀 Instalador de Hacking Live DOXING"
 echo "======================================="
 
 echo "[+] Actualizando paquetes..."
@@ -16,12 +17,15 @@ echo "[+] Instalando xdg-utils..."
 pkg install xdg-utils -y
 
 echo "[+] Clonando repositorio..."
-echo "Recuerda reemplazar el link por tu GitHub."
-# git clone https://github.com/USUARIO/REPO.git
+git clone https://github.com/hackcrist/HackingLive.git
+cd HackingLive
 
 echo "[+] Dando permisos de ejecución..."
 chmod +x hacking_live.py
 
 echo ""
-echo "✅ Instalación lista."
-echo "Ejecuta: python hacking_live.py"
+echo "✅ Instalación lista. Ejecuta:"
+echo ""
+echo "  python hacking_live.py"
+echo ""
+echo "Recuerda ver la portada banner.png en tu repositorio GitHub!"
